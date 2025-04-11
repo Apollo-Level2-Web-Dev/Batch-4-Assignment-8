@@ -97,7 +97,7 @@ Use Prisma with UUIDs for all primary keys.
 
 ### ✅ **2\.** **`GET /api/customers`** **- Get all customers**
 
-#### 📤 Response Example
+#### 📤 Response Example (200 Ok)
 
 ```perl
 {
@@ -120,7 +120,7 @@ Use Prisma with UUIDs for all primary keys.
 
 ### ✅ **3\.** **`GET /api/customers/87b3d7e1-8d9a-4f51-bf01-6f1e92f0f194`** **- Get a specific customer by ID**
 
-#### 📤 Response Example
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -149,7 +149,7 @@ Use Prisma with UUIDs for all primary keys.
 }
 ```
 
-#### 📤 Response Example
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -171,7 +171,7 @@ Use Prisma with UUIDs for all primary keys.
 
 ### ✅ **5\.** **`DELETE /api/customers/87b3d7e1-8d9a-4f51-bf01-6f1e92f0f194`** **- Delete a customer**
 
-#### 📤 Response Example
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -198,7 +198,7 @@ Use Prisma with UUIDs for all primary keys.
 }
 ```
 
-#### 📤 Response Example
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -218,7 +218,7 @@ Use Prisma with UUIDs for all primary keys.
 
 ### ✅ **2\.** **`GET /api/bikes`** **- Get all bikes**
 
-#### 📤 Response Example (200)
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -231,13 +231,6 @@ Use Prisma with UUIDs for all primary keys.
       "model": "R15",
       "year": 2022,
       "customerId": "87b3d7e1-8d9a-4f51-bf01-6f1e92f0f194"
-    },
-    {
-      "bikeId": "a3d2d3cb-f72f-4b63-a7d6-20e57bc30ef1",
-      "brand": "Honda",
-      "model": "CBR500R",
-      "year": 2023,
-      "customerId": "24fd7aa1-cd25-4c98-927f-53c01f487112"
     }
   ]
 }
@@ -247,7 +240,7 @@ Use Prisma with UUIDs for all primary keys.
 
 ### ✅ **3\.** **`GET /api/bikes/f3f1b192-3e62-402e-9bd3-d351a5a10e92`** **- Get a specific bike by ID**
 
-#### 📤 Response Example (200)
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -302,7 +295,7 @@ Use Prisma with UUIDs for all primary keys.
 
 ### ✅ **2\.** **`GET /api/services`** **– Get all service records**
 
-#### 📤 Response Example (200)
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -317,14 +310,7 @@ Use Prisma with UUIDs for all primary keys.
       "description": "Oil change",
       "status": "pending"
     },
-    {
-      "serviceId": "b3cc7b9d-21a0-4e12-b8b0-1df534eb3259",
-      "bikeId": "a3d2d3cb-f72f-4b63-a7d6-20e57bc30ef1",
-      "serviceDate": "2025-04-10T09:00:00.000Z",
-      "completionDate": "2025-04-10T17:30:00.000Z",
-      "description": "Brake replacement",
-      "status": "done"
-    }
+    {...}
   ]
 }
 ```
@@ -333,7 +319,7 @@ Use Prisma with UUIDs for all primary keys.
 
 ### ✅ **3\.** **`GET /api/services/a1e4a182-c80d-4ff7-9a3d-873929f9d0e6`** **– Get a specific service record**
 
-#### 📤 Response Example (200 ok)
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -362,7 +348,7 @@ Use Prisma with UUIDs for all primary keys.
 }
 ```
 
-#### 📤 Response Example
+#### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -409,7 +395,7 @@ This route returns all services that:
 
 * * *
 
-### 📤 Response
+### 📤 Response Example (200 Ok)
 
 ```json
 {
@@ -450,7 +436,6 @@ Include:
 *   Setup guide
 *   Key features
 
-  
 
 #### ✅ **What to Submit:**
 
@@ -462,3 +447,13 @@ Include:
 *   **Full Marks (60):** 17 April, 2025
 *   **50 Marks:** 18 April, 2025
 *   **Late (30 Marks):** After 18 April, 2025
+
+***
+
+**⚠️ IMPORTANT ALERT - STRICT REQUIREMENTS ⚠️**
+
+**PLEASE NOTE CAREFULLY:**
+
+1. All API endpoints must be implemented **exactly** as specified in the requirements document
+2. You must follow the **exact same** request and response structures provided
+ 

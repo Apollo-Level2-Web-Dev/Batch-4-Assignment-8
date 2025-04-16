@@ -444,9 +444,9 @@ Include:
 
 #### 📅 **Deadlines:**
 
-*   **Full Marks (60):** 17 April, 2025
-*   **50 Marks:** 18 April, 2025
-*   **Late (30 Marks):** After 18 April, 2025
+*   **Full Marks (60):** 18 April, 2025
+*   **50 Marks:** 19 April, 2025
+*   **Late (30 Marks):** After 19 April, 2025
 
 ***
 
